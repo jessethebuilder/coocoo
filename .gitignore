@@ -11,3 +11,9 @@
 /log/*
 !/log/.keep
 /tmp
+
+
+/config/database.yml
+/config/secret_token.rb
+/config/environments/development.rb
+/config/environments/test.rb
