@@ -53,6 +53,11 @@ gem 'fog'
 gem 'bootsy'
 gem 'mini_magick'
 
+# eCommerce
+gem 'shoppe', '~> 1.0'
+gem "shoppe-paypal"
+gem "shoppe-stripe", require: "shoppe/stripe"
+
 group :test, :development do
   gem 'faker'
   gem 'rspec-rails'
