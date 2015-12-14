@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.1'
+gem 'rails', '4.2.4'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -57,6 +57,16 @@ gem 'mini_magick'
 gem 'shoppe', '~> 1.0'
 gem "shoppe-paypal"
 gem "shoppe-stripe", require: "shoppe/stripe"
+
+gem 'meta_farm', '0.0.1', :git => 'https://github.com/jessethebuilder/meta_farm'
+# gem 'meta_farm', '0.0.1', :path => 'c:/users/bucky/desktop/jesseweb/meta_farm'
+
+gem 'sdad', '0.0.1', :git => 'https://github.com/jessethebuilder/sdad'
+
+# gem 'farm_shed', '0.0.2', :path => 'C:\Users\Bucky\Desktop\jesseweb\farm_shed'
+gem 'farm_shed', '0.0.2', :git => 'https://github.com/jessethebuilder/farm_shed'
+
+gem 'farm_slugs', :git => 'https://github.com/jessethebuilder/farm_slugs'
 
 group :test, :development do
   gem 'faker'
